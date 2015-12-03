@@ -1,0 +1,9 @@
+Nom du fichier photo : photo.png
+Nom : SARRUS
+Prenom : Pierre
+Adresse : Mende
+Date de naissance : 04 11 2000
+Email : pierre@toto.fr
+Biographie : né le 04 11, marié, 2 enfants. 
+Projets pro futurs : m'affranchir d'un patron et travailler pour moi.
+Hobbies : moto - volley 
