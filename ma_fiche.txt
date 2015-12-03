@@ -1,6 +1,6 @@
 Nom du fichier photo : photo.png
 Nom : SARRUS
-Prenom : Pierre
+Prenom : Pierre Pedro
 Adresse : Mende
 Date de naissance : 04 11 2000
 Email : pierre@toto.fr
