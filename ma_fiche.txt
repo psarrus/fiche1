@@ -1,9 +1,36 @@
-Nom du fichier photo : photo.png
-Nom : SARRUS
-Prenom : Pierre Pedro
-Adresse : Mende
-Date de naissance : 04 11 2000
-Email : pierre@toto.fr
-Biographie : né le 04 11, marié, 2 enfants. 
-Projets pro futurs : m'affranchir d'un patron et travailler pour moi.
-Hobbies : moto - volley 
+TITRE : NOM PRENOM | Còdi n Camp - Promo 1
+
+HEADER : NOM PRENOM - Promo 1
+
+Nom
+
+Prénom
+
+Ville
+
+Age
+
+Email
+
+----------------------------------------
+
+Biographie
+
+----------------------------------------
+
+Objectif après Còdi n Camp
+
+----------------------------------------
+
+Projets
+
+	Réalisée
+
+	En cours
+
+----------------------------------------
+
+Loisirs
+----------------------------------------
+
+FOOTER © - Còdi n Camp - 2015 - CC BY SA-NC
