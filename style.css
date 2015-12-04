@@ -1,0 +1,37 @@
+header {
+  text-align: center;
+  background-color: #222222;
+  font-size: 25px;
+  color: #71b43d;
+}
+
+.grey {
+  background-color: #f7f7f7;
+}
+
+body {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+h3 {
+  text-decoration : underline;
+  font-size: 20px;
+}
+
+h4 {
+  text-decoration : underline;
+  font-size: 17px;
+}
+
+footer {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
