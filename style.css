@@ -1,8 +1,9 @@
 header {
-  text-align: center;
+  width: 960px;
+  margin: auto;
   background-color: #222222;
-  font-size: 25px;
-  color: #71b43d;
+  height: 90px;
+  paddng: 30px 30px 30px 30px;
 }
 
 .grey {
@@ -10,12 +11,10 @@ header {
 }
 
 body {
-  width: 1000px;
-  margin: auto;
-  text-align: center;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.75;
+  margin: 0px;
 }
 
 h3 {
@@ -32,6 +31,31 @@ footer {
   text-align: center;
 }
 
-li {
+span {
+  padding: 25px 25px 25px 25px;
+  font-size: 14pt;
+  float: left;
+  margin: 0px;
+  color: #71b43d;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  }
+
+.menu {
+  font-size: 14pt;
+  display: inline;
   list-style-type: none;
+}
+
+.menu li{
+  padding: 25px 25px 25px 25px;
+  float: left;
+  margin: 0px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  color: #71b43d;
 }
