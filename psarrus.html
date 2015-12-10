@@ -4,9 +4,12 @@
       <meta charset="utf-8">
       <title>NOM PRENOM | Còdi n Camp - Promo 1</title>
       <link rel="stylesheet" href="style.css">
+      <!-- <link rel="stylesheet" href="contact.css"> -->
       <!-- <script src="/script.js"></script> -->
     </head>
     <body>
+
+    <div class="index">
       <header>
         <nav>
           <span>SARRUS Pierre</span>
@@ -15,10 +18,11 @@
             <li><a href="#bio">BIOGRAPHIE</a></li>
             <li><a href="#obj">OBJECTIFS</a></li>
             <li><a href="#pro">PROJETS</a></li>
-            <li><a href="contact.html">CONTACTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
           </ul>
         </nav>
       </header><br/>
+
 
       <section class="grey" id="moi">
           <div class="l960">
@@ -64,8 +68,8 @@
                 <h4>En cours</h4>
                   <ul>
                     <li>Création d'un CV en ligne</li>
-                    <li>Création d'un CV en ligne</li>
-                    <li>Création d'un CV en ligne</li>
+                    <!-- <li>Création d'un CV en ligne</li> -->
+                    <!-- <li>Création d'un CV en ligne</li> -->
                   </ul>
                 </div>
            </div>
@@ -80,7 +84,48 @@
             </ul>
          </div>
         </section>
+    </div>
+    <div class="contact">
+        <h1>Contact</h1>
 
+        <form action="contact_traitement.html" method="get">
+          <div>
+              <label for="nom">Nom :</label>
+              <input class="inp" type="text" name="user_nom" id="nom" />
+          </div><br/>
+          <div>
+              <label for="mail">Email :</label>
+              <input class="inp" type="email" name="user_mail" id="mail" />
+          </div><br/>
+          <!-- <div>
+              <label>Sexe :</label>
+              <input type="radio" name="user_sexe" value="H" checked />Homme
+              <input type="radio" name="user_sexe" value="F" />Femme
+          </div>
+          <div>
+              <label for="naissance">Date de naissance :</label>
+              <input type="Date" name="user_date" id="naissance" value="mm/dd/yyyy"/>
+          </div>
+          <div>
+              <label for="color">Couleur préférée :</label>
+              <input type="color" name="user_color" id="color" />
+          </div>
+          <div>
+              <label for="parfum">Vos desserts préférés :</label>
+              <input type="checkbox" name="user_dessert" value="1"/>glace vanille
+              <input type="checkbox" name="user_dessert" value="2"/>chantilly
+              <input type="checkbox" name="user_dessert" value="3"/>chocolat chaud
+              <input type="checkbox" name="user_dessert" value="4"/>biscuit
+          </div> -->
+          <div>
+              <label for="message">Message :</label>
+              <textarea class="inp" name="msg" id="message" rows="10"></textarea>
+          </div><br/>
+
+              <button class="btn" type="submit">Envoyer</button>
+
+        </form>
+    </div>
   <footer>
     © - Còdi n Camp - 2015 - CC BY SA-NC
   </footer>

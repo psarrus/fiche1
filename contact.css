@@ -1,50 +1,6 @@
-body {
-  background-color: #f7f7f7;
-  margin: 0px;
-  text-align: center;
-  font-size: 14px;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 
-header {
-  background-color: #222222;
-  height: 70px;
-  padding: 10px 10px 10px 50px;
-}
 
-span {
-  padding: 15px 15px 15px 15px;
-  font-size: 2em;
-  float: left;
-  margin: 0px;
-  color: #71b43d;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-  }
-
-  nav a{
-    color: white;
-    text-decoration: none;
-  }
-
-  nav a:hover{
-    color: #71b43d;
-  }
-
-.menu {
-  float: right;
-  margin-right: 50px;
-  font-size: 14px;
-  display: inline;
-  list-style-type: none;
-}
-
-.menu li{
-  padding: 10px 30px 10px 50px;
-  float: left;
-  margin: 0px;
-}
-
-form {
+.contact form {
     width: 400px;
     background-color: black;
     border: 2px solid #ccc;
@@ -53,12 +9,12 @@ form {
     margin: auto;
 }
 
-h1 {
+.contact h1 {
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
   text-align: center;
 }
 
-label {
+.contact label {
     /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
     display: inline-block;
     width: 55px;
@@ -69,27 +25,17 @@ label {
     font-size: 1em;
 }
 
-.inp {
+.contact .inp {
   background-color: #71b43d;
   border-radius: 1em;
   color: white;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
 }
 
-input, textarea {
-    /* Afin de s'assurer que tous les champs textuels utilisent la même police
-       Par défaut, textarea utilise une police à espacement constant */
-    font: 1em sans-serif;
-
-    /* Pour donner la même dimension à tous les champs textuels */
-    width: 300px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-    /* Pour harmoniser l'apparence des bordures des champs textuels */
-    border: 1px solid #999;
-}
-
-.btn {
+.contact .btn {
   width: 150px;
   border-radius: 8px;
   font-size: 14px;
